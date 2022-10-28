@@ -3,6 +3,7 @@ console.log("APIs");
 
 const baseEndpoint = 'https://api.github.com';
 const usersEndpoint = `${baseEndpoint}/users`;
+//modificación del nombre de variables : name, blog, location
 const name = document.querySelector('name');
 const blog = document.querySelector('#blog');
 const location = document.querySelector('.location');
