@@ -15,10 +15,43 @@ información del usuario que determinemos -->
     <link rel="stylesheet" href="./assets/css/styles.css">
   </head>
   <body>
-    <p class="name"></p>
-    <p class="blog"></p>
+    <!-- Titulo -->
+    <h1 class="text-center" my-5>APIs Github</h1>
+    <br>
+    <!-- Botón de acción -->
+    <div class="row justify-content-center text-center">
+        <div class="col-sm-4">
+            <button id="btn" class="btn btn-outline-secondary">Show User</button>
+        </div>
+    </div>
+    <br>
+
+    <!-- Tabla de contenido -->
+    <div class="container-md table-responsive" id="table">
+      <table class="table mx-auto">
+          <thead class="table-secondary" >
+              <!-- Encabezado -->
+              <tr>
+                  <th scope="col-md-1">name</th>
+                  <th scope="col-md-3">blog</th>
+                  <th scope="col-md-3">location</th>
+              </tr>
+          </thead>
+          <!-- Cuerpo de la tabla -->
+          <tbody id="contenido" class="container-md table-responsive" >
+             <tr>
+                    <th scope="row" class="name"">-</th>
+                    <td class="blog"></td>
+                    <!--Agregar el elemento location-->
+                    <td class="location"></td>
+                </tr>
+          </tbody> 
+        </table>
+    </div>
+    <!-- <p class="name"></p>
+    <p class="blog"></p> -->
     <!--Agregar el elemento location-->
-    <p class="location"></p>
+    <!-- <p class="location"></p> -->
     
     <!--modificación del enlace del archivo script-->
     <script src="./assets/js/app.js"></script>
